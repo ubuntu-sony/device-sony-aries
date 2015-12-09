@@ -81,3 +81,6 @@ PRODUCT_AAPT_PREF_CONFIG := xhdpi
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=320 \
     ro.usb.pid_suffix=1BB
+
+# Temporarily adding prebuilt libhybris binaries
+$(call inherit-product-if-exists, ubuntu/libhybris-prebuilt/device-ubuntu.mk)
