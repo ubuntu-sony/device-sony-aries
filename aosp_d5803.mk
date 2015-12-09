@@ -70,7 +70,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_NAME := aosp_d5803
 PRODUCT_DEVICE := aries
-PRODUCT_MODEL := Xperia Z3 Compact (AOSP)
+PRODUCT_MODEL := Xperia Z3 Compact (Ubuntu)
 PRODUCT_BRAND := Sony
 PRODUCT_MANUFACTURER := Sony
 
